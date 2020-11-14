@@ -79,7 +79,8 @@
     transition-duration: 250ms;
     
 }
-.works-list:hover .works-overlay {
+.works-link:hover .works-overlay,
+.works-link:focus .works-overlay {
     transform: translateY(0);
 }
 
